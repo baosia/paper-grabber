@@ -4,9 +4,7 @@ A python script to scrape papers by date from BioRxiv collections and output to 
 Python version: 3.x
 
 Dependencies/Libraries: 
-requests
-bs4 (for BeautifulSoup)
-pandas
+requests, bs4 (for BeautifulSoup), and pandas.
 
 Output file path is formatted for Windows
 
