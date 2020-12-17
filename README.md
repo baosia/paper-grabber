@@ -4,7 +4,10 @@ A python script to scrape papers by date from BioRxiv collections and output to 
 Python version: 3.x
 
 Dependencies/Libraries: 
-requests, bs4 (for BeautifulSoup), and pandas.
+cfscrape, bs4 (for BeautifulSoup), and pandas.
+
+bs4 and pandas are available in the defult repository (see: https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html for package installation instructions).
+cfscrape must be added manually and is available from https://github.com/Anorov/cloudflare-scrape . Download the repository, unzip, and add it to your project directory. Follow the installation instructions in the README file to add the module to pycharm. You may also need to install node.js to make cfscrape work correctly.  
 
 Output file path is formatted for Windows
 
